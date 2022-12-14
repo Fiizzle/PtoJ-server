@@ -1,0 +1,55 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.6'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.jetbrains:annotations:19.0.0'
+
+
+	// Spring Boot Starter
+	testImplementation ('org.springframework.boot:spring-boot-starter-test')
+
+	// Lombok
+	implementation ('org.projectlombok:lombok')
+	compileOnly ('org.projectlombok:lombok:1.18.16')
+	annotationProcessor ('org.projectlombok:lombok:1.18.16')
+
+	// DB
+	runtimeOnly ('mysql:mysql-connector-java') //mysql8
+	//runtimeOnly 'mysql:mysql-connector-java:5.1.47' //mysql5
+	implementation ('org.springframework.boot:spring-boot-starter-jdbc')
+
+
+
+	// Web
+	implementation ('org.springframework.boot:spring-boot-starter-web')
+
+	// Security, Authentication
+
+	implementation('org.springframework.boot:spring-boot-starter')
+	implementation('org.springframework.boot:spring-boot-starter-web')
+}
+
+//tasks.named('test') {
+//	useJUnitPlatform()
+//}
+
+test {
+	useJUnitPlatform()
+}

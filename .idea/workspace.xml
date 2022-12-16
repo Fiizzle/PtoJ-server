@@ -5,48 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be80e8cd-1399-41c1-ae5d-206acca892a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/config/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/config/BaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/config/BaseResponseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/config/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/config/secret/Secret.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/auth/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/auth/AuthDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/auth/AuthProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/auth/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/auth/model/GetAutoLoginRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/auth/model/PostLoginReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/auth/model/PostLoginRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/auth/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/PostDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/PostProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/model/GetPostRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/model/PatchPostReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/model/PostLoginReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/model/PostPostReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/model/PostPostRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/UserProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/model/DeleteUserReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/model/DeleteUserRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/model/GetUserInfoRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/model/PatchUserReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/model/PostUserReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/model/PostUserRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/utils/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +37,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -135,11 +99,23 @@
       <workItem from="1671046937824" duration="688000" />
       <workItem from="1671047639492" duration="153000" />
       <workItem from="1671048114561" duration="413000" />
-      <workItem from="1671188223269" duration="1590000" />
+      <workItem from="1671188223269" duration="2338000" />
     </task>
+    <task id="LOCAL-00001" summary="add backend frame">
+      <created>1671190132248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671190132248</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add backend frame" />
+    <option name="LAST_COMMIT_MESSAGE" value="add backend frame" />
   </component>
 </project>

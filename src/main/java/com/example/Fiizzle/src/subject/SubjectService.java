@@ -23,11 +23,13 @@ public class SubjectService {
 
     }
 
-    public PostSubjectRes createSubject(PostSubjectReq postsubjectReq) throws BaseException {
 
+    /**
+     * 학습 계획 추가
+     * */
+    public PostSubjectRes createSubject(PostSubjectReq postsubjectReq) throws BaseException {
         try{
             int subjectIdx = subjectDao.insertSubject(postsubjectReq);
-
             return new PostSubjectRes(subjectIdx);
         } catch (Exception exception) {
             throw new BaseException(DATABASE_ERROR);

@@ -4,25 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be80e8cd-1399-41c1-ae5d-206acca892a5" name="Changes" comment="feat : Swagger 연동">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/PostSubjectReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/PostSubjectRes.java" afterDir="false" />
+    <list default="true" id="be80e8cd-1399-41c1-ae5d-206acca892a5" name="Changes" comment="feat : Subject 추가 api">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/GetEachSubjectRes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/config/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/config/BaseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/config/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/config/BaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/config/BaseResponseStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/config/BaseResponseStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/PostDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/PostProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/PostService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/model/GetPostRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/GetPostRes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/model/PatchPostReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/PatchPostReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/model/PostLoginReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/PostLoginReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/model/PostPostReq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/post/model/PostPostRes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/GetPostRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/GetSubjectRes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/PatchPostReq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/PostLoginReq.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671198023442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat : Subject 추가 api">
+      <created>1671204709265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671204709265</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat : Swagger 연동" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : Swagger 연동" />
+    <MESSAGE value="feat : Subject 추가 api" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : Subject 추가 api" />
   </component>
 </project>

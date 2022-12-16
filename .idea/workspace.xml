@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be80e8cd-1399-41c1-ae5d-206acca892a5" name="Changes" comment="feat : Swagger 연동">
+    <list default="true" id="be80e8cd-1399-41c1-ae5d-206acca892a5" name="Changes" comment="feat : Subject 추가 api">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/GetEachSubjectRes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/SubjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/GetPostRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/GetSubjectRes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/PatchPostReq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/subject/model/PostLoginReq.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,28 +55,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelOrder2": "2",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RequestMappingsPanelWidth2": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/82109/IdeaProjects/Fiizzle/build.gradle",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "878e85a253cb00699936e13254a4d6df"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/82109/IdeaProjects/Fiizzle/build.gradle&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;878e85a253cb00699936e13254a4d6df&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -127,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671198023442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat : Subject 추가 api">
+      <created>1671204709265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671204709265</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat : Swagger 연동" />
-    <MESSAGE value="feat : test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : test2" />
+    <MESSAGE value="feat : Subject 추가 api" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : Subject 추가 api" />
   </component>
 </project>

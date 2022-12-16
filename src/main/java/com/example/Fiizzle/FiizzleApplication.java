@@ -6,8 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 
 @SpringBootApplication
 public class FiizzleApplication {
-//	public static final String APPLICATION_LOCATIONS = "spring.config.location="
-//			+ "classpath:application.yml,";
+
 public static final String APPLICATION_LOCATIONS = "spring.config.location="
 		+ "classpath:application.yml";
 

@@ -1,3 +1,5 @@
 04:38:58.198 ERROR [File:TestController.java] [Func:getAll] [Line:39] [Message:ERROR Level 테스트]- ERROR Level 테스트
 04:39:48.737 ERROR [File:TestController.java] [Func:getAll] [Line:39] [Message:ERROR Level 테스트]- ERROR Level 테스트
 05:08:21.052 ERROR [File:TestController.java] [Func:getAll] [Line:39] [Message:ERROR Level 테스트]- ERROR Level 테스트
+23:18:02.007 ERROR [File:TestController.java] [Func:getAll] [Line:42] [Message:ERROR Level 테스트]- ERROR Level 테스트
+23:40:41.954 ERROR [File:TestController.java] [Func:getAll] [Line:42] [Message:ERROR Level 테스트]- ERROR Level 테스트

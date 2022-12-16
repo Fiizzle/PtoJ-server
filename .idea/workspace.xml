@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be80e8cd-1399-41c1-ae5d-206acca892a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/config/SwaggerConfig.java" afterDir="false" />
+    <list default="true" id="be80e8cd-1399-41c1-ae5d-206acca892a5" name="Changes" comment="feat : Swagger 연동">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/FiizzleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/FiizzleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/test/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/test/TestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +103,16 @@
       <workItem from="1671047639492" duration="153000" />
       <workItem from="1671048059716" duration="139000" />
       <workItem from="1671180130723" duration="718000" />
-      <workItem from="1671188212740" duration="1480000" />
+      <workItem from="1671188212740" duration="2795000" />
     </task>
+    <task id="LOCAL-00001" summary="feat : Swagger 연동">
+      <created>1671189946976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671189946976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,5 +128,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat : Swagger 연동" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : Swagger 연동" />
   </component>
 </project>

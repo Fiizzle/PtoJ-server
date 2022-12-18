@@ -3,6 +3,8 @@ package com.example.Fiizzle.src.auth;
 
 import com.example.Fiizzle.config.BaseException;
 import com.example.Fiizzle.config.BaseResponseStatus;
+import com.example.Fiizzle.src.auth.model.PostLoginReq;
+import com.example.Fiizzle.src.auth.model.PostLoginRes;
 import com.example.Fiizzle.src.auth.model.PostRegisterReq;
 import com.example.Fiizzle.src.auth.model.PostRegisterRes;
 import org.slf4j.Logger;

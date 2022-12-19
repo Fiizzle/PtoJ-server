@@ -1,5 +1,4 @@
 package com.example.Fiizzle.config;
 
-public class Constant
-{
+public class Constant {
 }

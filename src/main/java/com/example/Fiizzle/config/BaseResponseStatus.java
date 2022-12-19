@@ -1,10 +1,10 @@
 package com.example.Fiizzle.config;
 
 import lombok.Getter;
+
 /**
  * 에러 코드 관리
  */
-
 @Getter
 public enum BaseResponseStatus {
     /**
@@ -22,9 +22,9 @@ public enum BaseResponseStatus {
     // users
     USERS_EMPTY_USER_ID(false, 2010, "유저 아이디 값을 확인해주세요."),
 
-    POST_USERS_EMPTY_PASSWORD(false,2030,"비밀번호를 입력해주세요."),
-    POST_USERS_INVALID_PASSWORD(false,2031,"비밀번호를 확인해주세요."),
-
+    // [POST] /users
+    POST_USERS_EMPTY_EMAIL(false, 2015, "이메일을 입력해주세요."),
+    POST_USERS_EMPTY_PASSWORD(false, 2017, "비밀번호를 입력해주세요."),
 
 
     /**
@@ -34,12 +34,10 @@ public enum BaseResponseStatus {
     RESPONSE_ERROR(false, 3000, "값을 불러오는데 실패하였습니다."),
 
     // [POST] /users
-    DUPLICATED_EMAIL(false, 3013, "중복된 이메일입니다."),
     FAILED_TO_LOGIN(false,3014,"없는 아이디거나 비밀번호가 틀렸습니다."),
 
     MODIFY_FAIL_POST(false, 3020, "게시물 수정에 실패하였습니다."),
     DELETE_FAIL_POST(false, 3021, "게시물 삭제에 실패하였습니다."),
-
 
 
     /**
@@ -47,7 +45,6 @@ public enum BaseResponseStatus {
      */
     DATABASE_ERROR(false, 4000, "데이터베이스 연결에 실패하였습니다."),
     SERVER_ERROR(false, 4001, "서버와의 연결에 실패하였습니다.");
-
 
 
     // 5000 : 필요시 만들어서 쓰세요

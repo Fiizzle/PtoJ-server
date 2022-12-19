@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be80e8cd-1399-41c1-ae5d-206acca892a5" name="Changes" comment="feat : Subject 추가 api">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96b46538-35f1-4e57-8de7-7d7a5df6ef99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96b46538-35f1-4e57-8de7-7d7a5df6ef99.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/UserProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/UserProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/model/GetUserInfoRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Fiizzle/src/user/model/GetUserInfoRes.java" afterDir="false" />
-    </list>
+    <list default="true" id="be80e8cd-1399-41c1-ae5d-206acca892a5" name="Changes" comment="feat : 개별 학습 계획 Api, 전체 학습 목록 Api 생성" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +35,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feat" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">

@@ -11,5 +11,6 @@ public class User {
     private int userIdx;
     private String nickName;
     private String email;
-    private String pwd;
+    private String password;
+    private int status;
 }

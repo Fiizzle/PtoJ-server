@@ -7,7 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class GetAutoLoginRes {
+public class PostRegisterRes {
     private int userIdx;
-
 }

@@ -20,26 +20,17 @@ public class BaseResponse<T> {
     private T result;
 
     // 요청에 성공한 경우
-//    public BaseResponse(Boolean isSuccess, String message, int code, T result) {
-//        this.isSuccess = isSuccess;
-//        this.message = message;
-//        this.code = code;
-//
-//
-//        this.result = result;
-//    }
-
     public BaseResponse(T result) {
         this.isSuccess = SUCCESS.isSuccess();
         this.message = SUCCESS.getMessage();
         this.code = SUCCESS.getCode();
         this.result = result;
     }
+
+    // 요청에 실패한 경우
     public BaseResponse(BaseResponseStatus status) {
         this.isSuccess = status.isSuccess();
         this.message = status.getMessage();
         this.code = status.getCode();
     }
-
-
 }

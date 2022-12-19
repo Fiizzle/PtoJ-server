@@ -7,6 +7,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class PostLoginRes {
-    private int userIdx;
+public class PostRegisterReq {
+    private String email;
+    private String nickName;
+    private String password;
 }
